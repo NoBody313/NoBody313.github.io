@@ -3,6 +3,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
 // Font
-*{
+* {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+// Navigation
+.nav-p {
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    text-decoration: solid;
+    color: black;
+    background-color: white;
+}
+
+// Background
+.bg-nav-col {
+    background-color: #101010;
+}
+
+.bg-body-col {
+    background-color: #181818;
+}
+
+.hero-1 {
+    height: 1040px !important;
+}
+
+.hero-2 {
+    height: 660px !important;
+}
+
+// Font Size
+.fs-52 {
+    font-size: 52px !important;
+}
+
+.fs-42 {
+    font-size: 42px !important;
+}
+
+.fs-32 {
+    font-size: 32px !important;
+}
+
+.fs-26 {
+    font-size: 26px !important;
+    line-height: 48px !important;
+}
+
+// Image
+.img-center {
+   align-items: center;
+   display: flex !important;
+   height: 100%;
+}
+
+// Position
+.ds-flex {
+    align-items: center;
+    display: flex !important;
+    height: 100%;
 }
