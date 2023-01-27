@@ -2,14 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
-// importing core styling file
-@import "./fontawesome/scss/fontawesome.scss";
-
-// our project needs Solid + Brands
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
-
-
 // Font
 * {
     font-family: 'Josefin Sans', sans-serif;
